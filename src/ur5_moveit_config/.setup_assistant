@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ur5_description
+    relative_path: urdf/ur5_robotiq_85.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/ur5_robotiq_85.srdf
+  CONFIG:
+    author_name: ChenBao
+    author_email: baochen@sjtu.edu.cn
+    generated_timestamp: 1634101831

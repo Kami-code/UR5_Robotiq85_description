@@ -1,0 +1,15 @@
+<package>
+  <name>moveit_resources_ur5_description</name>
+  <version>0.1.0</version>
+  <description>ur5 Resources used for MoveIt! testing</description>
+
+  <author email="baochen@sjtu.edu.cn">Chen Bao</author>
+
+  <maintainer email="moveit_releasers@googlegroups.com">MoveIt Release Team</maintainer>
+  <license>BSD</license>
+  <url type="website">http://moveit.ros.org</url>
+  <url type="bugtracker">https://github.com/ros-planning/moveit-resources/issues</url>
+  <url type="repository">https://github.com/ros-planning/moveit-resources</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
