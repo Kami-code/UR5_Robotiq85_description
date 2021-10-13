@@ -1,6 +1,6 @@
-# UR5_description
+# UR5_Robotiq85_description
 
-Repository for UR5_robotiq85 URDF and launch files, which can be both used in pybullet and ROS. Models are downloaded from the [repo](https://github.com/ElectronicElephant/pybullet_ur5_robotiq), but the urdf downloaded contains ".." in filename, which ROS moveit urdf parser will throw an error.
+Repository for UR5_robotiq85 URDF and launch files, which can be both used in pybullet and ROS1-noetic. Models are downloaded from the [repo](https://github.com/ElectronicElephant/pybullet_ur5_robotiq), but the urdf downloaded contains ".." in filename, which ROS moveit urdf parser will throw an error. So we need to modify to origin urdf file to support that parser. ([see here for more details](https://answers.ros.org/question/263308/is-it-possible-to-use-relative-path-for-mesh-filename-in-urdf/)) There is more explicit way to achieve the same goal, like using the xacro or urdf offered by ROS organization. Since I've been using the urdf file in production environment, to avoid unnecessary modification, a compatiable version with least modification is a better choice.
 
 ## Table of Files
 
